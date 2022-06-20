@@ -1,0 +1,67 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script>
+       // "use strict"
+
+       // const emp = { id: 1, name: "tushar" };
+
+       // emp.id = 2;
+       // var a = 100; // global
+       // let b = 200; //global scope
+       // const names = ["tushar", "anil"];
+
+       // names.push("rohit");
+
+       // const names = "Hello";
+       //// var , let , const
+       // {
+       //    let x = 10;  // block scope
+
+
+       //     var y = 20; // global scope
+       // }
+       // function add() {
+       //     let a = 10, b = 20; // a is in function scope
+       //     var c = a + b;  // function scope
+       //     console.log(c);
+       // }
+
+       // add();
+       // console.log(a);
+       // var f = 10;
+       // console.log(f);
+
+        ////setTimeOut()
+        //function display() {
+        //    document.getElementById("d1").innerHTML = "Hello to all";
+        //}
+
+        ////display();
+        //setTimeout(display, 3000);
+
+
+        //setInterval()
+        function showTime() {
+            let d = new Date();
+            let result = d.getHours() + ": " + d.getMinutes() + ": " + d.getSeconds();
+            document.getElementById("d1").innerHTML = result;
+        }
+
+        showTime();
+       // setInterval(showTime, 5000);
+
+
+
+    </script>
+
+
+</body>
+</html>
